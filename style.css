@@ -1,0 +1,88 @@
+.img-editorial {
+    float: left;
+    width: 80%;
+    object-fit: contain;
+    object-position: left;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 7rem;
+}
+
+.video-card {
+    min-height: 11.5rem;
+}
+
+.titulos-texto {
+    height: 42rem;
+    margin-top: 5rem;
+    margin-right: 15rem;
+    object-position: center;
+}
+
+.titulos-imagen {
+    float: left;
+    height: 30%;
+    width: 30%;
+    object-fit: contain;
+    object-position: center;
+    margin-top: 3.3rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    box-shadow: -5px -3px #f28627;
+}
+
+.booktrailer-video {
+    width: 560px;
+    height: 315px;
+}
+
+@media all and (min-width:960px) and (max-width: 1024px) {
+    /* put your css styles in here */
+}
+
+@media all and (min-width:801px) and (max-width: 959px) {
+    /* put your css styles in here */
+}
+
+@media all and (min-width:769px) and (max-width: 800px) {
+    /* put your css styles in here */
+}
+
+@media all and (min-width:569px) and (max-width: 768px) {
+    /* put your css styles in here */
+}
+
+@media all and (min-width:481px) and (max-width: 568px) {
+    /* put your css styles in here */
+}
+
+@media all and (min-width:321px) and (max-width: 480px) {
+    /* put your css styles in here */
+}
+
+@media all and (min-width:0px) and (max-width: 320px) {
+    .img-editorial {
+        margin-bottom: 1rem;
+    }
+
+    .video-card {
+        min-height: auto;
+    }
+
+    .titulos-imagen {        
+        width: 80%;
+        margin-left: 2em;
+        margin-bottom: 2rem;
+    }
+
+    .titulos-texto {
+        margin-right: auto;
+        height: auto;
+    }
+
+    .booktrailer-video {
+        width: 295px;
+        height: 150px;
+    }
+}
