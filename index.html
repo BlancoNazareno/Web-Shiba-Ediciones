@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Shiba Ediciones</title>
+</head>
+
+<script type="text/javascript">
+
+    $(window).on('beforeunload', function() {
+    
+       window.setTimeout(function() {
+        $(window).scrollTop(0); 
+    }, 0);
+    
+    });
+    
+</script>
+
+
+<body  style="background-color: #03a696;">
+
+
+
+<!-- NavBar    -->
+    <nav class="navbar navbar-expand-lg navbar-dark p3" style="background-color: #f28627">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="multimedia\logo1.png" alt="" height="60" class="d-inline-block align-text-center" style="margin-right: 1rem;">
+            <strong>Shiba Ediciones</strong>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#mynavbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#La editorial" style= "font-weight: bold;">La editorial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Equipos" style= "font-weight: bold;">Equipos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Títulos" style= "font-weight: bold;">Títulos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Booktrailer" style= "font-weight: bold;">Booktrailer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Redes" style= "font-weight: bold;">Redes sociales</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+    </nav>
+
+
+
+<!-- Carousel inicial-->
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"></button>   
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2"></button>           
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="multimedia\shiba1.png" alt="..." class="d-block w-100" style="height: 44rem; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center p-2 p-md-5"
+                    style="top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(0,0,0,0);">
+                </div>
+            </div>
+        
+            <div class="carousel-item">
+                <img src="multimedia\carousel2.JPG" alt="..." class="d-block w-100" style="height: 44rem; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center p-2 p-md-5"
+                    style="top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(0,0,0,0);">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="multimedia\carousel3.JPG" alt="..." class="d-block w-100" style="height: 44rem; object-fit: cover;">
+                <div class="carousel-caption d-flex align-items-center p-2 p-md-5"
+                    style="top: 0px; bottom: 0px; left: 0px; right: 0px; background-color: rgba(0,0,0,0);">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+<div id="La editorial">
+    <div class="container-fluid" style="background-color: #173840;">
+            <img src="multimedia\laEditorial1.png" class= "img-fluid" style="float: left; height: 50rem; width: 80%; object-fit: contain; object-position: left; margin-left: 1rem; margin-top: 2rem;">   
+            
+            <br>  
+            <div class="text-light p-3" style="height: 50rem; margin-top: 2rem; margin-right: 1rem; object-position: left;">  
+            <h4>La editorial</h4>
+            <br>
+            <i><strong>Shiba ediciones</strong></i> es una editorial independiente, ideada y gestionada por alumnos de la carrera de Edición
+            que buscan difundir conocimiento, tendencias y debates sobre problemáticas actuales de la industria editorial.
+            Se especializa en la publicación de obras académicas en formato digital para un público universitario
+            y suele colaborar con miembros de la comunidad académica para la producción de sus publicaciones. 
+            El objetivo de la editorial es alimentar la curiosidad, la búsqueda constante de conocimiento,
+            la exploración de nuevos campos del saber y la empatía de sus lectores, valores reflejados en el perro “shiba”. 
+            </div>
+    </div>
+</div>
+
+
+
+
+ <!-- Equipos -->
+ <div id="Equipos">
+    <div class="container-fluid" style="background-color: #f28627;">
+
+        <!-- <p class="m-0 text-center"> <small style="font-size:0.8em;">CONOCE A LOS</small></p> -->
+        <br><h3 class="text-center">Conocé a los equipos</h3><br>
+                
+        <div class="row mx-2 px-2 mx-md-5 px-md-5">
+           
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+            <div class="card" style="width: 22rem;">
+                <video width="350" controls>
+                <source src="multimedia\videoComunicación.mp4" type="video/mp4" class="card-img-top" alt="..." style="aspect-ratio: 1; object-fit: cover;">
+                </video>
+                <div class="card-body">
+                    <h5 class="card-title">Comunicación</h5>
+                    <p class="card-text"> <small>Se encarga de todas las tareas de comunicación y difusión de la editorial, sus trabajo y novedades, centrado principalmente en redes sociales, como YouTube, Instagram y TikTok.</small> </p>
+                </div>
+            </div>
+            </div>
+        
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card" style="width: 22rem;">
+                    <video width="350" controls>
+                    <source src="multimedia\videoDiseños.mp4" type="video/mp4" class="card-img-top" alt="..." style="aspect-ratio: 1; object-fit: cover;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title">Diseños</h5>
+                        <p class="card-text"> <small>El área centra sus tareas en el armado y creación de todos los materiales gráficos de la editorial, esto incluye maquetado de los contenidos, y creación de logo y portada, entre otros.</small> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card" style="width: 22rem;">
+                    <video width="350" controls>
+                    <source src="multimedia\videoRedacción.mp4" type="video/mp4" class="card-img-top" alt="..." style="aspect-ratio: 1; object-fit: cover;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title">Redacción</h5>
+                        <p class="card-text"> <small>Se encarga del establecimiento de las pautas de escritos de la editorial, como las hojas de estilo, así como también de la producciones textuales de la editorial. </small> </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card" style="width: 22rem;">
+                    <video width="350" controls>
+                    <source src="multimedia\videoComercialización.mp4" type="video/mp4" class="card-img-top" alt="..." style="aspect-ratio: 1; object-fit: cover;">
+                    </video>
+                    <div class="card-body">
+                        <h5 class="card-title">Comercialización</h5>
+                        <p class="card-text"> <small>Desarrolla y coordina los cronogramas de trabajo, así como también se encarga de las propuestas para la comercialización y distribución de los títulos publicados.</small> </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Portada y descarga del eBook -->
+<div id="Títulos">
+    <div class="container-fluid" style="background-color: #173840;">
+            <!-- <img src="multimedia\portada.jpg" class= "img-fluid" style="float: left; height: 50rem; width: 50%; object-fit: contain; object-position: center; margin-top: 3.3rem; margin-left: 15rem; box-shadow: 10px 5px #f28627;"> -->
+            <img src="multimedia\portada.jpg" class= "img-fluid" style="float: left; height: 30%; width: 30%; object-fit: contain; object-position: center; 
+            margin-top: 3.3rem; margin-left: 15rem; margin-right: 15rem; box-shadow: -5px -3px #f28627;">   
+            <br>  
+            
+            <div class="text-light p-3" style="height: 50rem; margin-top: 5rem; margin-right: 15rem; object-position: center;">  
+            <h4>Nuestro libro</h4> 
+            <br>
+            <i><strong>Más allá del papel: editar en digital</strong></i> analiza los diversos procesos del campo de lo digital y su relación con el mundo editorial. Elaborado por estudiantes de la materia de Edición Electrónica y Multimedia de la Universidad de Buenos Aires para estudiantes de la carrera de Edición e interesados en la industria del libro y la tecnología de los medios. Recopila textos originales del 2022 y uno del 2021. Desarrolla algunos aspectos históricos y otros reflexivos sobre diversos fenómenos que componen a la industria editorial. Incluye audios de cada texto, fotografías y audios descriptivos de estas.
+        
+            <br><br>
+            <a href="#" type="button" class="btn btn-sm btn-outline-light" onclick=popUp()>¡Descargá el eBook!</a>
+            <script>
+                function popUp() {
+                  alert("¡Ups! El eBook aún no está listo\n\n ¡Seguinos en nuestras redes para enterarte apenas lo subamos!");
+                }
+                </script>
+            </div>
+    </div>
+</div>
+
+
+<!-- Booktrailer -->
+<div id="Booktrailer">
+    <div class="container-fluid" style="background-color: #f28627; text-align: center;">
+        <br><br>
+        <h3 class="text-center">¡Te invitamos a ver el <i><strong>booktrailer</strong></i> del libro!</h3>
+        <video width="1200" controls style="margin: 3rem;" poster="multimedia\shiba1.png">
+            <source src="multimedia\booktrailer.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+
+<!-- Redes sociales en el footer -->
+
+<footer>
+    <div id="Redes">
+        <ul class="nav justify-content-center p-3" style="background: #03a696;">
+            <li class="nav-item my-auto px-0 px-xl-4">
+                <a class="nav-link" href="https://linktr.ee/shibaediciones" target="_blank" style="color:whitesmoke; font-weight: bold;">Linktree</a>
+            </li>        
+            <li class="nav-item my-auto px-0 px-xl-4">
+                <a class="nav-link" href="mailto: shiba.ediciones@gmail.com" target="_blank" style="color:whitesmoke; font-weight: bold;">Mail</a>
+            </li>        
+            <li class="nav-item my-auto px-0 px-xl-4">
+                <a class="nav-link" href="https://www.youtube.com/channel/UCu34dDFsrIEHMO5MSFjeWMg" target="_blank" style="color:whitesmoke; font-weight: bold;">YouTube</a>
+            </li>        
+            <li class="nav-item my-auto px-0 px-xl-4">
+                <a class="nav-link" href="https://www.instagram.com/shiba.ediciones/" target="_blank" style="color:whitesmoke; font-weight: bold;">Instagram</a>
+            </li>
+            <li class="nav-item my-auto px-0 px-xl-4">
+                <a class="nav-link" href="https://www.tiktok.com/@shibaediciones?lang=es" target="_blank" style="color:whitesmoke; font-weight: bold;">TikTok</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+
+
+</body>
+</html>
