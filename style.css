@@ -61,7 +61,7 @@
     /* put your css styles in here */
 }
 
-@media all and (min-width:0px) and (max-width: 320px) {
+@media all and (min-width:0px) and (max-width: 425px) {
     .img-editorial {
         margin-bottom: 1rem;
     }
