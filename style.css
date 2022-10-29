@@ -62,9 +62,6 @@
     }
 }
 
-<<<<<<< HEAD
-@media all and (min-width:0px) and (max-width: 425px) {
-=======
 @media all and (min-width:0px) and (max-width: 320px) {
     .booktrailer-video {        
         height: 45%;
@@ -76,7 +73,6 @@
         height: auto;
     }
 
->>>>>>> 348f210 (mobile settings)
     .img-editorial {
         margin-bottom: 1rem;
     }
