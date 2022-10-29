@@ -1,3 +1,8 @@
+.carousel-item-img {
+    height: 44rem; 
+    object-fit: cover;
+}
+
 .img-editorial {
     float: left;
     width: 80%;
@@ -32,36 +37,46 @@
     box-shadow: -5px -3px #f28627;
 }
 
+.booktrailer-div {
+    background-color: #f28627;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
 .booktrailer-video {
     width: 560px;
     height: 315px;
 }
 
-@media all and (min-width:960px) and (max-width: 1024px) {
-    /* put your css styles in here */
+
+
+@media all and (min-width:376px) and (max-width: 425px) {
+    .booktrailer-div {
+        height: 21rem;
+    }
 }
 
-@media all and (min-width:801px) and (max-width: 959px) {
-    /* put your css styles in here */
+@media all and (min-width:321px) and (max-width: 375px) {
+    .booktrailer-div {
+        height: 21rem;
+    }
 }
 
-@media all and (min-width:769px) and (max-width: 800px) {
-    /* put your css styles in here */
-}
-
-@media all and (min-width:569px) and (max-width: 768px) {
-    /* put your css styles in here */
-}
-
-@media all and (min-width:481px) and (max-width: 568px) {
-    /* put your css styles in here */
-}
-
-@media all and (min-width:321px) and (max-width: 480px) {
-    /* put your css styles in here */
+<<<<<<< HEAD
+@media all and (min-width:0px) and (max-width: 425px) {
+=======
+@media all and (min-width:0px) and (max-width: 320px) {
+    .booktrailer-video {        
+        height: 45%;
+    }
 }
 
 @media all and (min-width:0px) and (max-width: 425px) {
+    .carousel-item-img {
+        height: auto;
+    }
+
+>>>>>>> 348f210 (mobile settings)
     .img-editorial {
         margin-bottom: 1rem;
     }
@@ -70,7 +85,7 @@
         min-height: auto;
     }
 
-    .titulos-imagen {        
+    .titulos-imagen {
         width: 80%;
         margin-left: 2em;
         margin-bottom: 2rem;
@@ -81,8 +96,14 @@
         height: auto;
     }
 
+    .booktrailer-div {
+        height: 21rem;
+    }
+
     .booktrailer-video {
-        width: 295px;
-        height: 150px;
+        /* width: 295px;
+        height: 150px; */
+        width: 100%;
+        height: 62%;
     }
 }
